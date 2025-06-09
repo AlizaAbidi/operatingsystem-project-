@@ -10,18 +10,6 @@ A multithreaded Library Management System in C that simulates a *student-librari
 * 🔐 Synchronization handled via pthread_mutex_t and sem_t.
 * 📄 File-based storage for books and logs.
 * 🤵 Simulation of concurrent access using POSIX threads.
-  
-## 📁 Project Structure
-Library-Management-System/
-│
-├── main.c                 # Entry point: shows menu and spawns threads
-├── thread_manager.c       # Manages reader and writer threads
-├── thread_manager.h       # Header for thread_manager
-├── book_operations.c      # Defines add, remove, view operations
-├── book_operations.h      # Header for book operations
-├── books.txt              # Stores the catalog of books
-├── log.txt                # Logs every activity (add/view/remove)
-└── Makefile               # Compile all files easily
 
 ## 🧰 Libraries Used
 | Library         | Purpose                                       |
